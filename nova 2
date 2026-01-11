@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVA | Rise Above</title>
+  <meta name="description" content="Nova - فريق محترف يقدم حلول تسويقية رقمية وابداعية، يضمن نجاح عملك ونمو شركتك.">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #0b0b0f;
+      color: #ffffff;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: radial-gradient(circle at top, #6a00ff, #0b0b0f 80%);
+      overflow: hidden;
+    }
+    header img {
+      width: 100px;
+      margin-bottom: 20px;
+      animation: fadeInUp 1s ease forwards;
+      opacity: 0;
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 10px 0;
+      letter-spacing: 2px;
+      animation: fadeInUp 1.2s ease forwards;
+      opacity: 0;
+    }
+    header p {
+      font-size: 20px;
+      font-style: italic;
+      opacity: 0.85;
+      animation: fadeInUp 1.4s ease forwards;
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(20px);}
+      100% { opacity: 1; transform: translateY(0);}
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 32px;
+    }
+
+    .team {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    .member {
+      background: #15151d;
+      border-radius: 15px;
+      padding: 20px;
+      max-width: 300px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(106,0,255,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+      opacity: 0;
+      animation: fadeInUp 1s ease forwards;
+    }
+    .member:nth-child(1) { animation-delay: 0.2s; }
+    .member:nth-child(2) { animation-delay: 0.4s; }
+    .member:nth-child(3) { animation-delay: 0.6s; }
+
+    .member:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 30px rgba(106,0,255,0.4);
+    }
+    .member img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      background: #fff; /* Placeholder background */
+    }
+    .member h3 {
+      margin-bottom: 5px;
+      font-size: 22px;
+    }
+    .member h4 {
+      margin-bottom: 10px;
+      font-size: 16px;
+      opacity: 0.8;
+    }
+    .member p {
+      font-size: 14px;
+      line-height: 1.5;
+      opacity: 0.85;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0b0b0f;
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 900px) {
+      .team {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/100x100.png?text=N" alt="NOVA Logo">
+    <h1>NOVA</h1>
+    <p>Rise Above</p>
+  </header>
+
+  <section>
+    <h2>Our Team / فريقنا</h2>
+    <div class="team">
+      <div class="member">
+        <img src="https://via.placeholder.com/120" alt="محمد حجاج">
+        <h3>Mohamed Haggag</h3>
+        <h4>Executive Director & Media Buyer</h4>
+        <p>Mohamed leads the team with strategic vision, overseeing campaigns from planning to execution, ensuring maximum results.</p>
+        <p>محمد يقود الفريق برؤية استراتيجية واضحة، ويشرف على كل الحملات لضمان تحقيق أفضل النتائج.</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/120" alt="عادل ظريف">
+        <h3>Adel Zareef</h3>
+        <h4>Marketing Lead & Right Hand</h4>
+        <p>Adel executes daily campaigns, turning strategy into results and managing every detail for flawless execution.</p>
+        <p>عادل ينفذ الحملات اليومية ويحول الاستراتيجية إلى نتائج ملموسة، ويشرف على كل التفاصيل لضمان جودة التنفيذ.</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/120" alt="أحمد عبد العال">
+        <h3>Ahmed Abdel Aal</h3>
+        <h4>Creative Content & Editor</h4>
+        <p>Ahmed handles all visual creativity, from video editing to content creation, ensuring every campaign looks professional and impactful.</p>
+        <p>أحمد مسؤول عن جميع المحتوى الإبداعي والمونتاج، لضمان أن كل حملة تظهر بمستوى احترافي ومؤثر بصريًا.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 NOVA. All rights reserved.
+  </footer>
+
+</body>
+</html>
